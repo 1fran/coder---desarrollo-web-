@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Work+Sans&display=swap');
+
+/* aplico margin 0  y padding 0 a toda la pag */
+* {
+    margin: 0;
+    padding: 0; }
+
+/*modifico la tipografia e inserto un background a todo el body*/
+
+body {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 125vh;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* aplico el mismo fondo oscuro al header y footer */
+
+header, footer {
+    padding: 10px;
+    background-color: rgba(47, 47, 47, 0.947);
+}    
+
+header {
+    height: 140px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.links {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;    
+}
+
+.musica {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+} 
+
+.multimedia {
+    width: 80%;
+    margin: 40px;
+}
+
+
+
+
+
+
+/* background al texto para que se lea */
+.shows {
+    border: 2px solid black;
+    padding: 50px 40px;
+    background-color: rgba(255, 255, 255, 0.709);
+    display: flex;
+}
+
+.shows p {
+    margin: 0px 40px;
+}
+
+footer {
+    position: absolute (bottom);
+    padding: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.icon {
+    padding: 10px;
+    max-height: 60px;
+}
+
+/* estilos de los otros HTML */
+
+.mazo {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.perfil {
+    width: 300px;
+    height: fit-content;
+    border-radius: 15px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.839);
+    padding: 20px;  
+}
+
+.fotoperfil {
+    width: 90%;
+    height: 200px;
+     
+}
